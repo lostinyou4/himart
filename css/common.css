@@ -1,0 +1,36 @@
+#visual{background:#fdcf77; height:auto; width:100%;} 
+#sub_visual{background:#fff; height:auto; width:100%;}
+ 
+header{height:145px; width:100%;  border-bottom:1px solid #fff; position:absolute; z-index:100;}
+header .inner{width:83.33%; margin:0 auto; height:100%; border:0px solid red;}
+header .inner div.floor1{height:75px; width:100%; height:auto; overflow:hidden;}
+header .inner div.floor1 h1.logo{float:left;  padding-top:28px; width:155px;/*width:8.07%;*/}
+header .inner div.floor1 h1.logo a{display:inline-block;}
+header .inner div.floor1 h1.logo a img{width:100%;}
+header .inner div.floor1 #mall{float:left; width:135px;
+padding-left:37px; padding-top:35px;}
+header .inner div.floor1 .right{float:right; border:0px solid orange;}
+header .inner div.floor1 .right ul.mymenu{float:left; padding-top:50px;}
+header .inner div.floor1 .right ul.mymenu li{display:inline;}
+header .inner div.floor1 .right ul.mymenu li a{ font-size:19px; font-family:'seoul-namsan-jung-l';}
+header .inner div.floor1 .right ul.mymenu li:first-child{padding-right:20px;}
+
+header .inner div.floor1 .right ul.icon{padding-left:25px; float:right; padding-top:35px;}
+header .inner div.floor1 .right ul.icon li{display:inline; padding-left:10px;}
+header .inner div.floor1 .right ul.icon li:first-child{padding-left:0;}
+
+header .inner div.floor2{padding-top:27px; padding-bottom:25px; height:auto; overflow:hidden;}
+header .inner div.floor2 nav.main{float:left;}
+header .inner div.floor2 nav.main ul li{display:inline; }
+header .inner div.floor2 nav.main ul li a{font-size:26px; padding-right:40px; font-family:'seoul-namsan-jung-m';}
+header .inner div.floor2 ul.right{float:right}
+header .inner div.floor2 ul.right li{display:inline;}
+header .inner div.floor2 ul.right li a{font-size:26px; font-family:'seoul-namsan-jung-m';  padding-left:40px;}
+
+#design img{
+	width:100%;
+	display:none;
+}
+
+
+

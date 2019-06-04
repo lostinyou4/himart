@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'seoulnamsanregular';
+    src: url('./webfontkit-namsan/SeoulNamsan.eot');
+    src: url('./webfontkit-namsan/SeoulNamsan.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-namsan/SeoulNamsan.woff2') format('woff2'),
+         url('./webfontkit-namsan/SeoulNamsan.woff') format('woff'),
+         url('./webfontkit-namsan/SeoulNamsan.ttf') format('truetype'),
+         url('./webfontkit-namsan/SeoulNamsan.svg#seoulnamsanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'seoulnamsan_smart_bregular';
+    src: url('./webfontkit-namsan-b/SeoulNamsanB.eot');
+    src: url('./webfontkit-namsan-b/SeoulNamsanB.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-namsan-b/SeoulNamsanB.woff2') format('woff2'),
+         url('./webfontkit-namsan-b/SeoulNamsanB.woff') format('woff'),
+         url('./webfontkit-namsan-b/SeoulNamsanB.ttf') format('truetype'),
+         url('./webfontkit-namsan-b/SeoulNamsanB.svg#seoulnamsan_smart_bregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'seoul-namsan-jung-m';
+    src: url('./SeoulNamsanJungM/seoulnamsanjungm.eot');
+    src: url('./SeoulNamsanJungM/seoulnamsanjungm.eot?#iefix') format('embedded-opentype'),
+         url('./SeoulNamsanJungM/seoulnamsanjungm.woff2') format('woff2'),
+         url('./SeoulNamsanJungM/seoulnamsanjungm.woff') format('woff'),
+         url('./SeoulNamsanJungM/seoulnamsanjungm.ttf') format('truetype'),
+         url('./SeoulNamsanJungM/seoulnamsanjungm.svg#seoul-namsan-jung-m') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'seoul-namsan-jung-l';
+    src: url('./SeoulNamsanJungL/seoulnamsanjungl.eot');
+    src: url('./SeoulNamsanJungL/seoulnamsanjungl.eot?#iefix') format('embedded-opentype'),
+         url('./SeoulNamsanJungL/seoulnamsanjungl.woff2') format('woff2'),
+         url('./SeoulNamsanJungL/seoulnamsanjungl.woff') format('woff'),
+         url('./SeoulNamsanJungL/seoulnamsanjungl.ttf') format('truetype'),
+         url('./SeoulNamsanJungL/seoulnamsanjungl.svg#seoul-namsan-jung-l') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oseongandhaneum-bold';
+    src: url('./oandhan/oseongandhaneum-bold.eot');
+    src: url('./oandhan/oseongandhaneum-bold.eot?#iefix') format('embedded-opentype'),
+         url('./oandhan/oseongandhaneum-bold.woff2') format('woff2'),
+         url('./oandhan/oseongandhaneum-bold.woff') format('woff'),
+         url('./oandhan/oseongandhaneum-bold.ttf') format('truetype'),
+         url('./oandhan/oseongandhaneum-bold.svg#seoulnamsanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'notoregular';
+    src: url('./notokr/notokr-regular.eot');
+    src: url('./notokr/notokr-regular.eot?#iefix') format('embedded-opentype'),
+         url('./notokr/notokr-regular.woff') format('woff'),
+         url('./notokr/notokr-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

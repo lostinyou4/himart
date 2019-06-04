@@ -1,0 +1,11 @@
+
+
+#DB_banner10 *{list-style:none;padding:0;margin-right:20px;border:0}
+#DB_banner10 {position:relative;width:500px;margin-left:16px}
+#DB_banner10 .DB_mask{height:64px;line-height:26px;width:1040px;;position:relative;overflow:hidden; margin-top:0; margin-left:10px;}
+#DB_banner10 ul{white-space:nowrap;font-size:0}
+#DB_banner10 ul li{display:inline;}
+#DB_banner10 ul li a{padding:10px 10px}
+#DB_banner10 ul li a img{vertical-align:middle;}
+#DB_banner10 .DB_prev{position:absolute;top:0;left:-20px}
+#DB_banner10 .DB_next{position:absolute;top:0;right:-620px}
