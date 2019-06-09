@@ -1,4 +1,4 @@
-#mainvisual{width:100%;height:1000px; border:0px solid red; position:relative;}
+#mainvisual{/*width:100%;*/width:1920px; height:1000px; border:0px solid red; position:relative;}
 
 .owl-carousel{width:100%;height:100%; border:0px solid red;}
 .swiper-slide{background:#fff; text-align:center;
@@ -6,13 +6,13 @@
 }
 .owl-carousel .item1 p#bg{top:35%;
 position:absolute; right:0; bottom:0; z-index:0;
-width:900px;} 
+width:900px;}
 .owl-carousel .item2 p#bg{top:30%;
 position:absolute; right:25%; bottom:0; z-index:0;
-width:450px;} 
+width:450px;}
 .owl-carousel .item3 p#bg{top:30%;
 position:absolute; right:25%; bottom:0; z-index:0;
-width:350px;} 
+width:350px;}
 
 .owl-carousel .owl-item h4#term{font-size:55px; padding-bottom:10px; line-height:1.5;
 font-family:'oseongandhaneum-bold';
@@ -71,7 +71,7 @@ border:5px solid red;
 /*모바일 종료*/
 
 /*지점찾기*/
-#maincontent1{width:100%; height:auto; background:#e2e1e1; overflow:hidden;}
+#maincontent1{/*width:100%;*/ width:1920px; height:auto; background:#e2e1e1; overflow:hidden;}
 #maincontent1 .inner{width:1200px; margin:0 auto; height:100%;}
 #maincontent1 .inner div.box{
 	float:left;
@@ -159,7 +159,7 @@ text{font-size:5px !important;
 fill:#88a4bc !important;}
 
 /*게시판*/
-#maincontent2{width:100%; height:1000px; background:#f0f0f0;}
+#maincontent2{/*width:100%;*/width:1920px; height:1000px; background:#f0f0f0;}
 #maincontent2 .inner{width:1440px; margin:0 auto;height:100%; padding-top:115px; padding-bottom:75px;}
 
 #maincontent2 .upper{
@@ -284,7 +284,7 @@ div.clear{
 }
 
 /*바로가기*/
-#m-c3{width:100%; height:auto; background:#ffffff;}
+#m-c3{/*width:100%;*/ width:1920px; height:auto; background:#ffffff;}
 #m-c3 .inner{width:1440px; margin:0 auto;height:100%; padding-top:70px; overflow:hidden;}
 #m-c3 .inner>dl{
 	width:33.3%;
@@ -331,61 +331,3 @@ div.clear{
 	height:15px;
 	display:inline-block;
 }
-
-/*푸터*/
-footer{width:100%; height:auto; background:#fafafa;}
-footer .inner{width:1600px; margin:0 auto;height:100%; overflow:hidden; position:relative;}
-footer .sitemap_left{
-	padding-top:53px;
-	padding-bottom:68px;
-}
-
-footer .sitemap li{
-	display:inline;
-	padding:0 17px;
-	background:url(../image/main/footerline.gif) no-repeat 0 6px;
-}
-footer .sitemap li:first-child{
-	background:none;
-	padding-left:0;
-}
-
-footer .sitemap li a{
-		font-family:'nanum-square-r';
-		font-size:16px;
-		color:#9a9a9a;
-		
-}
-
-footer .logo{
-	float:left;
-	padding-top:35px;
-}
-
-footer #info{
-	float:left;
-	padding-left:45px;
-	padding-right:70px;
-}
-footer #info dd{
-	padding-bottom:13px;
-	font-family:'nanum-square-l';
-	font-size:16px;
-	color:#9a9a9a;
-}
-
-footer #banner{
-	float:left;
-	padding-top:35px;
-}
-footer #banner li{
-	display:inline;
-	padding-right:25px;
-}
-
-footer .sitemap_right{
-	position:absolute;
-	right:0;
-	top:53px;
-}
-
