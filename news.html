@@ -17,53 +17,109 @@
 </head>
 <body>
 <main>
-<section id="sub_visual">
-<header>
-<div class="inner">
-<div class="floor1">
-	<h1 class="logo">
-		<a href="./index.html"><img src="./image/common/logo.png" alt="logo" /></a>
-	</h1>
-	<div id="mall">
-		<a href="#"><img src="./image/common/mall.png"></a>
-	</div>
-	
-<div class="right">
-	<ul class="mymenu">
-	<li><a href="#">로그인</a></li>
-	<li><a href="#">회원가입</a></li>
-	</ul>
-	
-	<ul class="icon">
-	<li><a href="#"><img src="./image/common/magni.png"></a></li>
-	<li><a href="#"><img src="./image/common/home.png"></a></li>
-	<li><a href="#"><img src="./image/common/qnb.png"></a></li>
-	</ul>
-</div>
-</div><!--//floor1-->
-<div class="floor2">
-	<nav>
-		<ul>
-			<li><a href="./point.html">지점안내</a></li>
-			<li><a href="./service.html">쇼핑가이드</a></li>
-			<li><a href="./point.html">하이마트L.POINT</a></li>
-			<li><a href="./news.html">소비자톡톡</a></li>
-			<li><a href="./service.html">고객지원센터</a></li>
-			<li><a href="./news.html">PR센터</a></li>
-		</ul>
-	</nav>
-	<ul class="right">
-		<li><a href="#">사이버상담</a></li>
-		<li><a href="#">마이페이지</a></li>
-	</ul>
-</div><!--//floor2-->
-</div><!--//inner-->
-</header>
+	<header id="header">
+		<div class="inner">
+			<div class="floor1">
+				<h1 class="logo">
+					<a href="./index.html"><img src="./image/common/logo.png" alt="logo" /></a>
+				</h1>
+				<div id="mall">
+					<a href="#"><img src="./image/common/mall.png"></a>
+				</div>
+
+				<div class="right">
+					<ul class="mymenu">
+						<li><a href="#">로그인</a></li>
+						<li><a href="#">회원가입</a></li>
+					</ul>
+					<ul class="icon">
+						<li><a href="#"><img src="./image/common/magni2.png"></a></li>
+						<li><a href="#"><img src="./image/common/home2.png"></a></li>
+						<li><a href="#"><img src="./image/common/qnb.png"></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--//floor1-->
+			<div class="floor2" id="floor2">
+				<nav class="main">
+					<ul>
+						<li><a href="#">지점안내</a></li>
+						<li><a href="#">쇼핑가이드</a></li>
+						<li><a href="#">하이마트L.POINT</a></li>
+						<li><a href="#">소비자톡톡</a></li>
+						<li><a href="#">고객지원센터</a></li>
+						<li><a href="#">PR센터</a></li>
+						<!--
+						<li><a href="./point.html">지점안내</a></li>
+						<li><a href="./service.html">쇼핑가이드</a></li>
+						<li><a href="./point.html">하이마트L.POINT</a></li>
+						<li><a href="./news.html">소비자톡톡</a></li>
+						<li><a href="./service.html">고객지원센터</a></li>
+						<li><a href="./news.html">PR센터</a></li>
+					 -->
+					</ul>
+				</nav>
+
+				<ul class="right">
+					<li><a href="#">사이버상담</a></li>
+					<li><a href="#">마이페이지</a></li>
+				</ul>
+
+				<!-- 서브메뉴 -->
+				<div class="submenu" id="submenu">
+					<ul>
+						<li><a href="javascript:void(0);">지점찾기</a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:void(0);">HOT EVENT</a></li>
+						<li><a href="javascript:void(0);">E-카탈로그</a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:void(0);">하이마트L.POINT회원안내</a></li>
+						<li><a href="javascript:void(0);">고객등급별혜택</a></li>
+						<li><a href="javascript:void(0);">제휴카드</a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:void(0);">하이마트이용후기</a></li>
+						<li><a href="javascript:void(0);">스마일스타</a></li>
+						<li><a href="javascript:void(0);">내가만드는하이마트</a></li>
+						<li><a href="javascript:void(0);">소비자POLL</a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:void(0);">고객서비스</a></li>
+						<li><a href="javascript:void(0);">사이버상담및제보</a></li>
+						<li><a href="javascript:void(0);">FAQ</a></li>
+						<li><a href="javascript:void(0);">배송조회</a></li>
+						<li><a href="javascript:void(0);">포인트조회</a></li>
+						<li><a href="javascript:void(0);">이전설치</a></li>
+					</ul>
+					<ul>
+						<li><a href="javascript:void(0);">롯데하이마트NEWS</a></li>
+						<li><a href="javascript:void(0);">광고</a></li>
+						<li><a href="javascript:void(0);">사회공헌</a></li>
+						<li><a href="javascript:void(0);">웹진</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--//floor2-->
+		</div>
+		<!--//inner-->
+
+	</header>
+	<script>
+		$(".main li").mouseover(function(){
+			$( '#header' ).addClass( 'header_on' );
+			$( '#submenu' ).addClass( 'submenu_on' );
+		});
+		$(".floor2").mouseleave(function(){
+			$( '#header' ).removeClass( 'header_on' );
+			$( '#submenu' ).removeClass( 'submenu_on' );
+		});
+	</script>
 </section>
-  
+
 <section id="sub3_content1">
 	<img src="./image/news.jpg">
-</section>
 
 </main>
 </body>

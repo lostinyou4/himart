@@ -14,13 +14,14 @@ header {/*
   height: 145px;*/
 	background-color: rgba(255,255,255,0);
 	height: 145px;
-  width: 100%;
+  width: 1920px;
   border-bottom: 1px solid #fff;
   position: absolute;
   z-index: 100;
 	transition: background-color 0.35s,height 0.35s;
 }
 .header_on{
+  /*width:1920px;*/
 	height:400px;
 	background-color:rgba(255,255,255,1);
 }
