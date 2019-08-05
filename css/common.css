@@ -103,7 +103,7 @@ header .inner div.floor2 {
   height: auto;
   overflow: hidden;
   padding-top: 27px;
-  padding-bottom: 300px;
+  /* padding-bottom: 300px; */
 }
 
 header .inner div.floor2 nav.main {
@@ -141,10 +141,13 @@ header .inner div.floor2 ul.right li a {
 
 .submenu_on{
 	visibility: visible !important;
+  display: block !important;
+
 }
 header .submenu{
 	visibility: hidden;
 	transition: visibility 0.1s;
+  display: none;
 }
 header .submenu ul {
   float: left;

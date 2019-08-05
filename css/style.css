@@ -358,6 +358,8 @@ div.clear{
 	display: inline-block;
 	padding-left: 22px;
 	padding-right: 8px;
+	cursor: pointer;
+	position: relative;
 }
 #s1-c1 .category li:nth-child(2){
 	background :url(../image/sub1/arrow1.png) no-repeat 0 4px;
@@ -399,7 +401,7 @@ div.clear{
 
 .brown{
 	color: #713d0a;
-	font-family: inherit;
+	font-family: inher.it;
 	font-size: inherit;
 }
 
@@ -433,15 +435,15 @@ div.clear{
 }
 
 #s1-c2 .active{
-	color: #da291c;
 	border-bottom: 1px solid #da291c;
+	color: #da291c;
 }
 
 #s1-c2 hr{
 	display: block;
 	border: 1px solid #eeeeee;
 }
-
+/* 회원이란? */
 #s1-c2 .subject{
 	padding-top: 90px;
 	font-family: notoregular;
@@ -457,36 +459,73 @@ div.clear{
 	font-weight: lighter;
 	background:url(../image/sub1/head.gif) 0 13px no-repeat;
 }
-
-#s1-c2 div dl:first-child{
-	margin-right:3%;
+/* 회원혜택 */
+#s1-c2 .tabcontent h2:nth-of-type(2){
+	padding-bottom: 32px;
 }
-#s1-c2 .box{
+
+#s1-c2 .box dl{
 	border:2px solid #dadada;
-	padding: 35px 68px;
+	padding: 35px 57px;
 	width:48.5%;
 	float:left;
 	height:300px;
 	position: relative;
-	background: url() 0 0 no-repeat;
+	margin-bottom: 25px;
 }
-#s1-c2 .box dd:nth-child(1){/*혜택*/
-	padding: 10px 18px;
+
+#s1-c2 .box dl:nth-child(2n){
+	margin-left: 32px;
+}
+
+#s1-c2 .box dl:nth-child(1){
+	background: url(../image/sub1/icon1.png) 37px 127px no-repeat;
+}
+#s1-c2 .box dl:nth-child(2){
+	background: url(../image/sub1/icon2.png) 37px 127px no-repeat;
+}
+#s1-c2 .box dl:nth-child(3){
+	background: url(../image/sub1/icon3.png) 37px 127px no-repeat;
+}
+#s1-c2 .box dl:nth-child(4){
+	background: url(../image/sub1/icon4.png) 37px 127px no-repeat;
+}
+#s1-c2 .box dl:nth-child(5){
+	background: url(../image/sub1/icon5.png) 37px 127px no-repeat;
+}
+/* 혜택 */
+#s1-c2 .box dl dd:nth-child(1){
+	padding: 13px 18px;
 	display: inline-block;
 	background-color: #f84e41;
 	font-family: notoregular;
 	color: #fefefe;
 	font-size:20px;
-	font-weight: 500;
+	font-weight: 600;
 	border-radius: 5px;
 	position: absolute;
-	right: 32px;
+	right: 17px;
 	top: -15px;
-
 }
-#s1-c2 .box dt:nth-child(2){
+/* 제목 */
+#s1-c2 .box dl dt:nth-child(2){
 	font-family: notoregular;
 	font-size: 28px;
+	font-weight: 600;
 	color: #2a2a2a;
+}
+/* 설명 */
+#s1-c2 .box dl dd:nth-child(3){
+	font-family: notoregular;
+	font-size: 18px;
+	color: #777777;
+	position: absolute;
+	top: 130px;
+	padding-left: 130px;
+	line-height: 1.3;
+}
 
+/* 회원신청안내 */
+#s1-c2 .tabcontent h2:nth-of-type(3){
+	padding-top: 90px;
 }
